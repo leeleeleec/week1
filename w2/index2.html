@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indie Coffee Roasters | 獨立咖啡焙煎</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 導覽列：使用 Flexbox 水平對齊 -->
+  <header class="navbar">
+    <div class="logo">☕ Indie Roast</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">關於我們</a></li>
+        <li><a href="#products">精選商品</a></li>
+        <li><a href="#contact">聯絡預訂</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 主視覺 Banner (Hero Section) -->
+  <section class="hero">
+    <h1>為獨立開發者打造的頂級咖啡</h1>
+    <p>提供專注力與極致口感的自選烘焙咖啡豆</p>
+    <a href="#products" class="btn">立即選購</a>
+  </section>
+
+  <!-- 產品展示區：使用 CSS Grid 兩欄/多欄佈局 -->
+  <main id="products" class="container">
+    <h2>熱銷咖啡豆</h2>
+    <div class="product-grid">
+      <article class="card">
+        <h3>Indie Blend #01</h3>
+        <p>深烘焙 | 巧克力與堅果風味，適合長夜 Debug</p>
+        <span class="price">HK$ 128</span>
+      </article>
+
+      <article class="card">
+        <h3>Indie Blend #02</h3>
+        <p>中淺烘焙 | 花香與柑橘酸質，啟發全棧架構靈感</p>
+        <span class="price">HK$ 148</span>
+      </article>
+
+      <article class="card">
+        <h3>Decaf Focus</h3>
+        <p>低因烘焙 | 晚間寫 Code 不影響 sleep quality</p>
+        <span class="price">HK$ 118</span>
+      </article>
+    </div>
+  </main>
+
+  <!-- 頁尾 -->
+  <footer>
+    <p>&copy; 2026 Indie Coffee Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
